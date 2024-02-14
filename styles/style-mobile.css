@@ -1,0 +1,47 @@
+.menu__list{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap:64px
+}
+
+.invisible{
+    display: none;
+}
+
+.button__menu{
+    width: 32px;
+    background-color:#2B2B2B;
+    border: none;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+
+}
+
+.menu__list--mobile{
+    display: none;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+@media screen and (max-width: 768px) {
+    .button__menu{
+        display: initial;
+    }
+    .menu__list {
+        display: none;
+    }
+
+    .menu__list--mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 32px 0;
+        background-color: #2B2B2B;
+    }
+
+}

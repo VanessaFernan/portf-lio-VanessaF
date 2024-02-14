@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style-contact.css">
+    <link rel="stylesheet" href="./styles/style-mobile.css">
+  </head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu__desktop">
+            <ul class="menu__list">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
+                <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+            </ul>
+        </nav>
+
+        <nav class="cabecalho__menu__mobile invisible">
+            <ul class="menu__list--mobile">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
+                <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+             </ul>
+        </nav>
+
+        <button class="button__menu"><img src="./assets/Menu.png" alt="Ícone de menu."> </button>
+    </header>
+    <main>
+        <form class="form" action="https://formsubmit.co/vanessa.fernandes@gmail.com" method="POST">
+            <h1 class="paragrafo-contato"></h1>
+            <label for="nome">Nome:</label>
+            <input type="text" name="name" id="nome" placeholder="Preencha seu nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@email.com.br" required>
+            <label for="textarea">Mensagem:</label>
+            <textarea name="message" id="textarea" placeholder="Sua mensagem..." cols="30" rows="10"></textarea>
+            <input type="hidden" name="_next" value="https://C:\Users\vanes\OneDrive\Área de Trabalho\Projeto Final\e-mail-enviado.html">
+            <button type="submit">Enviar</button>
+       </form>
+
+    </main>
+    <footer class="rodape"><img src= "./assets/Logo_Alura_Include.svg"> <img src="./assets/zurich-logo-blue.svg"> Desenvolvido por Vanessa Fernandes no programa Alura Include.</footer>
+    <script src="js/contact.js"></script>
+    <script src="js/menuMobile.js"></script>
+</body>
+</html>

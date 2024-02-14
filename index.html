@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="styles/style-mobile.css">
+  </head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <nav class="cabecalho__menu__desktop">
+                <ul class="menu__list">
+                    <a class="cabecalho__menu__link" href="index.html">Home</a>
+                    <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                    <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
+                    <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+                </ul>
+            </nav>
+
+            <nav class="cabecalho__menu__mobile invisible">
+                <ul class="menu__list--mobile">
+                    <a class="cabecalho__menu__link" href="index.html">Home</a>
+                    <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                    <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
+                    <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+                 </ul>
+            </nav>
+
+            <button class="button__menu"><img src="./assets/Menu.png" alt="Ícone de menu."> </button>
+        </div>
+
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo" id="nome-desenvolvedor"><strong class="titulo-destaque"></strong></h1>
+            <p class="apresentacao__conteudo__texto"> Oie! Sou Vanessa Fernandes, supervisora de seguros gerais e estudante front-end na Alura.</p>
+            <div class="apresentacao__links">           
+                <h2 class="apresentacao__links__subtitulo"> Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/VanessaFernan"> <img src="./assets/Github.svg"></imag> GitHub </a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/vanessa-fernandes-558379189"> <img src="./assets/Linkedin.svg"> Linkedin </a>
+            </div>
+
+        </section>
+        <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Foto da Vanessa Fernandes">
+    </main>
+    <footer 
+    class="rodape"><img src= "./assets/Logo_Alura_Include.svg"> <img src="./assets/zurich-logo-blue.svg">Desenvolvido por Vanessa Fernandes no programa Alura Include.</footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/menuMobile.js"></script>
+</body>
+</html>
